@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TabBar
+
+  Created by Álvaro Sanz Rodrigo on 31/10/18.
+  Copyright © 2018 Álvaro Sanz Rodrigo. All rights reserved.
+*/
+"title_atari" = "컨트롤러";
+"title_monitor" = "스크린 모니터";
+"title_laptop" = "노트북";
+"title_controller" = "게임 컨트롤러";

@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAC05B6A2189B9180074F298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B692189B9180074F298 /* AppDelegate.swift */; };
+		AAC05B712189B9190074F298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B702189B9190074F298 /* Assets.xcassets */; };
+		AAC05B742189B9190074F298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B722189B9190074F298 /* LaunchScreen.storyboard */; };
+		AAC05B862189C00B0074F298 /* AtariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B842189C00B0074F298 /* AtariViewController.swift */; };
+		AAC05B872189C00B0074F298 /* AtariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B852189C00B0074F298 /* AtariViewController.xib */; };
+		AAC05B8A2189C0C50074F298 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B882189C0C50074F298 /* ControllerViewController.swift */; };
+		AAC05B8B2189C0C50074F298 /* ControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B892189C0C50074F298 /* ControllerViewController.xib */; };
+		AAC05B942189C1360074F298 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B922189C1360074F298 /* MonitorViewController.swift */; };
+		AAC05B952189C1360074F298 /* MonitorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B932189C1360074F298 /* MonitorViewController.xib */; };
+		AAC05B982189C1480074F298 /* LaptopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B962189C1480074F298 /* LaptopViewController.swift */; };
+		AAC05B992189C1480074F298 /* LaptopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B972189C1480074F298 /* LaptopViewController.xib */; };
+		AAC05B9C2189C8DA0074F298 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B9E2189C8DA0074F298 /* Localizable.strings */; };
+		AAC05BA42189D1FF0074F298 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05BA32189D1FF0074F298 /* Style.swift */; };
+		AAC05BA62189D2370074F298 /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05BA52189D2370074F298 /* ColorStyle.swift */; };
+		AAC05BAA2189D9470074F298 /* SourceCodePro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC05BA92189D9470074F298 /* SourceCodePro-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAC05B662189B9180074F298 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC05B692189B9180074F298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAC05B702189B9190074F298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAC05B732189B9190074F298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAC05B752189B9190074F298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC05B842189C00B0074F298 /* AtariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtariViewController.swift; sourceTree = "<group>"; };
+		AAC05B852189C00B0074F298 /* AtariViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AtariViewController.xib; sourceTree = "<group>"; };
+		AAC05B882189C0C50074F298 /* ControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerViewController.swift; sourceTree = "<group>"; };
+		AAC05B892189C0C50074F298 /* ControllerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControllerViewController.xib; sourceTree = "<group>"; };
+		AAC05B922189C1360074F298 /* MonitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewController.swift; sourceTree = "<group>"; };
+		AAC05B932189C1360074F298 /* MonitorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonitorViewController.xib; sourceTree = "<group>"; };
+		AAC05B962189C1480074F298 /* LaptopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopViewController.swift; sourceTree = "<group>"; };
+		AAC05B972189C1480074F298 /* LaptopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaptopViewController.xib; sourceTree = "<group>"; };
+		AAC05B9D2189C8DA0074F298 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAC05B9F2189C8E40074F298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAC05BA02189C8FF0074F298 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AAC05BA12189C8FF0074F298 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAC05BA32189D1FF0074F298 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		AAC05BA52189D2370074F298 /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
+		AAC05BA92189D9470074F298 /* SourceCodePro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC05B632189B9180074F298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC05B5D2189B9180074F298 = {
+			isa = PBXGroup;
+			children = (
+				AAC05B682189B9180074F298 /* TabBar */,
+				AAC05B672189B9180074F298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC05B672189B9180074F298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05B662189B9180074F298 /* TabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC05B682189B9180074F298 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05BA82189D9170074F298 /* Fonts */,
+				AAC05BA22189D1E50074F298 /* Style */,
+				AAC05B7B2189BF1E0074F298 /* ViewControllers */,
+				AAC05B692189B9180074F298 /* AppDelegate.swift */,
+				AAC05B702189B9190074F298 /* Assets.xcassets */,
+				AAC05B722189B9190074F298 /* LaunchScreen.storyboard */,
+				AAC05B752189B9190074F298 /* Info.plist */,
+				AAC05B9E2189C8DA0074F298 /* Localizable.strings */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AAC05B7B2189BF1E0074F298 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05B7F2189BF650074F298 /* AtariViewController */,
+				AAC05B7E2189BF550074F298 /* ControllerViewController */,
+				AAC05B7D2189BF3E0074F298 /* MonitorViewController */,
+				AAC05B7C2189BF2A0074F298 /* LaptopViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AAC05B7C2189BF2A0074F298 /* LaptopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05B962189C1480074F298 /* LaptopViewController.swift */,
+				AAC05B972189C1480074F298 /* LaptopViewController.xib */,
+			);
+			path = LaptopViewController;
+			sourceTree = "<group>";
+		};
+		AAC05B7D2189BF3E0074F298 /* MonitorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05B922189C1360074F298 /* MonitorViewController.swift */,
+				AAC05B932189C1360074F298 /* MonitorViewController.xib */,
+			);
+			path = MonitorViewController;
+			sourceTree = "<group>";
+		};
+		AAC05B7E2189BF550074F298 /* ControllerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05B882189C0C50074F298 /* ControllerViewController.swift */,
+				AAC05B892189C0C50074F298 /* ControllerViewController.xib */,
+			);
+			path = ControllerViewController;
+			sourceTree = "<group>";
+		};
+		AAC05B7F2189BF650074F298 /* AtariViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05B842189C00B0074F298 /* AtariViewController.swift */,
+				AAC05B852189C00B0074F298 /* AtariViewController.xib */,
+			);
+			path = AtariViewController;
+			sourceTree = "<group>";
+		};
+		AAC05BA22189D1E50074F298 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05BA32189D1FF0074F298 /* Style.swift */,
+				AAC05BA52189D2370074F298 /* ColorStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		AAC05BA82189D9170074F298 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AAC05BA92189D9470074F298 /* SourceCodePro-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC05B652189B9180074F298 /* TabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC05B782189B9190074F298 /* Build configuration list for PBXNativeTarget "TabBar" */;
+			buildPhases = (
+				AAC05B622189B9180074F298 /* Sources */,
+				AAC05B632189B9180074F298 /* Frameworks */,
+				AAC05B642189B9180074F298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBar;
+			productName = TabBar;
+			productReference = AAC05B662189B9180074F298 /* TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC05B5E2189B9180074F298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Álvaro Sanz Rodrigo";
+				TargetAttributes = {
+					AAC05B652189B9180074F298 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AAC05B612189B9180074F298 /* Build configuration list for PBXProject "TabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = AAC05B5D2189B9180074F298;
+			productRefGroup = AAC05B672189B9180074F298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC05B652189B9180074F298 /* TabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC05B642189B9180074F298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC05B8B2189C0C50074F298 /* ControllerViewController.xib in Resources */,
+				AAC05B742189B9190074F298 /* LaunchScreen.storyboard in Resources */,
+				AAC05B712189B9190074F298 /* Assets.xcassets in Resources */,
+				AAC05B9C2189C8DA0074F298 /* Localizable.strings in Resources */,
+				AAC05B872189C00B0074F298 /* AtariViewController.xib in Resources */,
+				AAC05BAA2189D9470074F298 /* SourceCodePro-Light.ttf in Resources */,
+				AAC05B992189C1480074F298 /* LaptopViewController.xib in Resources */,
+				AAC05B952189C1360074F298 /* MonitorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC05B622189B9180074F298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC05B982189C1480074F298 /* LaptopViewController.swift in Sources */,
+				AAC05BA42189D1FF0074F298 /* Style.swift in Sources */,
+				AAC05B862189C00B0074F298 /* AtariViewController.swift in Sources */,
+				AAC05B942189C1360074F298 /* MonitorViewController.swift in Sources */,
+				AAC05BA62189D2370074F298 /* ColorStyle.swift in Sources */,
+				AAC05B8A2189C0C50074F298 /* ControllerViewController.swift in Sources */,
+				AAC05B6A2189B9180074F298 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAC05B722189B9190074F298 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC05B732189B9190074F298 /* Base */,
+				AAC05BA02189C8FF0074F298 /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AAC05B9E2189C8DA0074F298 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC05B9D2189C8DA0074F298 /* en */,
+				AAC05B9F2189C8E40074F298 /* Base */,
+				AAC05BA12189C8FF0074F298 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC05B762189B9190074F298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAC05B772189B9190074F298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC05B792189B9190074F298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJ5Z496VWC;
+				INFOPLIST_FILE = TabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sanzcorp.com.TabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAC05B7A2189B9190074F298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJ5Z496VWC;
+				INFOPLIST_FILE = TabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sanzcorp.com.TabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC05B612189B9180074F298 /* Build configuration list for PBXProject "TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC05B762189B9190074F298 /* Debug */,
+				AAC05B772189B9190074F298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC05B782189B9190074F298 /* Build configuration list for PBXNativeTarget "TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC05B792189B9190074F298 /* Debug */,
+				AAC05B7A2189B9190074F298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC05B5E2189B9180074F298 /* Project object */;
+}
