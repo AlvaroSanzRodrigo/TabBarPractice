@@ -12,10 +12,10 @@ import UIKit
 
 class ColorStyle{
     class func tintColor() -> UIColor {
-        return UIColor(red: 190/255.0, green: 246/255.0, blue: 122/255.0, alpha: 1)
+        return UIColor.orange
     }
     class func navigationBarTintColor() -> UIColor {
     
-        return UIColor(red: 0/255.0, green: 150.0/255.0, blue: 136.0/255.0, alpha: 1.0)
+        return UIColor.black
     }
 }

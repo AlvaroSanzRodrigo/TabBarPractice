@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAACEA332192FAFB0086A1CA /* CamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAACEA312192FAFB0086A1CA /* CamaViewController.swift */; };
+		AAACEA342192FAFB0086A1CA /* CamaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAACEA322192FAFB0086A1CA /* CamaViewController.xib */; };
 		AAC05B6A2189B9180074F298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B692189B9180074F298 /* AppDelegate.swift */; };
 		AAC05B712189B9190074F298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B702189B9190074F298 /* Assets.xcassets */; };
 		AAC05B742189B9190074F298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B722189B9190074F298 /* LaunchScreen.storyboard */; };
-		AAC05B862189C00B0074F298 /* AtariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B842189C00B0074F298 /* AtariViewController.swift */; };
+		AAC05B862189C00B0074F298 /* CronoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B842189C00B0074F298 /* CronoViewController.swift */; };
 		AAC05B872189C00B0074F298 /* AtariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B852189C00B0074F298 /* AtariViewController.xib */; };
-		AAC05B8A2189C0C50074F298 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B882189C0C50074F298 /* ControllerViewController.swift */; };
+		AAC05B8A2189C0C50074F298 /* GloboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B882189C0C50074F298 /* GloboViewController.swift */; };
 		AAC05B8B2189C0C50074F298 /* ControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B892189C0C50074F298 /* ControllerViewController.xib */; };
-		AAC05B942189C1360074F298 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B922189C1360074F298 /* MonitorViewController.swift */; };
+		AAC05B942189C1360074F298 /* DespertadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B922189C1360074F298 /* DespertadorViewController.swift */; };
 		AAC05B952189C1360074F298 /* MonitorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B932189C1360074F298 /* MonitorViewController.xib */; };
-		AAC05B982189C1480074F298 /* LaptopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B962189C1480074F298 /* LaptopViewController.swift */; };
+		AAC05B982189C1480074F298 /* MinuteroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05B962189C1480074F298 /* MinuteroViewController.swift */; };
 		AAC05B992189C1480074F298 /* LaptopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B972189C1480074F298 /* LaptopViewController.xib */; };
 		AAC05B9C2189C8DA0074F298 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAC05B9E2189C8DA0074F298 /* Localizable.strings */; };
 		AAC05BA42189D1FF0074F298 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05BA32189D1FF0074F298 /* Style.swift */; };
@@ -25,18 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAACEA312192FAFB0086A1CA /* CamaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaViewController.swift; sourceTree = "<group>"; };
+		AAACEA322192FAFB0086A1CA /* CamaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CamaViewController.xib; sourceTree = "<group>"; };
 		AAC05B662189B9180074F298 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC05B692189B9180074F298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC05B702189B9190074F298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAC05B732189B9190074F298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAC05B752189B9190074F298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAC05B842189C00B0074F298 /* AtariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtariViewController.swift; sourceTree = "<group>"; };
+		AAC05B842189C00B0074F298 /* CronoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronoViewController.swift; sourceTree = "<group>"; };
 		AAC05B852189C00B0074F298 /* AtariViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AtariViewController.xib; sourceTree = "<group>"; };
-		AAC05B882189C0C50074F298 /* ControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerViewController.swift; sourceTree = "<group>"; };
+		AAC05B882189C0C50074F298 /* GloboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloboViewController.swift; sourceTree = "<group>"; };
 		AAC05B892189C0C50074F298 /* ControllerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControllerViewController.xib; sourceTree = "<group>"; };
-		AAC05B922189C1360074F298 /* MonitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewController.swift; sourceTree = "<group>"; };
+		AAC05B922189C1360074F298 /* DespertadorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DespertadorViewController.swift; sourceTree = "<group>"; };
 		AAC05B932189C1360074F298 /* MonitorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonitorViewController.xib; sourceTree = "<group>"; };
-		AAC05B962189C1480074F298 /* LaptopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopViewController.swift; sourceTree = "<group>"; };
+		AAC05B962189C1480074F298 /* MinuteroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteroViewController.swift; sourceTree = "<group>"; };
 		AAC05B972189C1480074F298 /* LaptopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaptopViewController.xib; sourceTree = "<group>"; };
 		AAC05B9D2189C8DA0074F298 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AAC05B9F2189C8E40074F298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA512D0721908CFA003A04F1 /* CamaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAACEA312192FAFB0086A1CA /* CamaViewController.swift */,
+				AAACEA322192FAFB0086A1CA /* CamaViewController.xib */,
+			);
+			path = CamaViewController;
+			sourceTree = "<group>";
+		};
 		AAC05B5D2189B9180074F298 = {
 			isa = PBXGroup;
 			children = (
@@ -92,48 +105,49 @@
 		AAC05B7B2189BF1E0074F298 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AAC05B7F2189BF650074F298 /* AtariViewController */,
-				AAC05B7E2189BF550074F298 /* ControllerViewController */,
-				AAC05B7D2189BF3E0074F298 /* MonitorViewController */,
-				AAC05B7C2189BF2A0074F298 /* LaptopViewController */,
+				AA512D0721908CFA003A04F1 /* CamaViewController */,
+				AAC05B7F2189BF650074F298 /* CronoViewController */,
+				AAC05B7E2189BF550074F298 /* GloboViewController */,
+				AAC05B7D2189BF3E0074F298 /* DespertadorViewController */,
+				AAC05B7C2189BF2A0074F298 /* MinuteroViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		AAC05B7C2189BF2A0074F298 /* LaptopViewController */ = {
+		AAC05B7C2189BF2A0074F298 /* MinuteroViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AAC05B962189C1480074F298 /* LaptopViewController.swift */,
+				AAC05B962189C1480074F298 /* MinuteroViewController.swift */,
 				AAC05B972189C1480074F298 /* LaptopViewController.xib */,
 			);
-			path = LaptopViewController;
+			path = MinuteroViewController;
 			sourceTree = "<group>";
 		};
-		AAC05B7D2189BF3E0074F298 /* MonitorViewController */ = {
+		AAC05B7D2189BF3E0074F298 /* DespertadorViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AAC05B922189C1360074F298 /* MonitorViewController.swift */,
+				AAC05B922189C1360074F298 /* DespertadorViewController.swift */,
 				AAC05B932189C1360074F298 /* MonitorViewController.xib */,
 			);
-			path = MonitorViewController;
+			path = DespertadorViewController;
 			sourceTree = "<group>";
 		};
-		AAC05B7E2189BF550074F298 /* ControllerViewController */ = {
+		AAC05B7E2189BF550074F298 /* GloboViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AAC05B882189C0C50074F298 /* ControllerViewController.swift */,
+				AAC05B882189C0C50074F298 /* GloboViewController.swift */,
 				AAC05B892189C0C50074F298 /* ControllerViewController.xib */,
 			);
-			path = ControllerViewController;
+			path = GloboViewController;
 			sourceTree = "<group>";
 		};
-		AAC05B7F2189BF650074F298 /* AtariViewController */ = {
+		AAC05B7F2189BF650074F298 /* CronoViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AAC05B842189C00B0074F298 /* AtariViewController.swift */,
+				AAC05B842189C00B0074F298 /* CronoViewController.swift */,
 				AAC05B852189C00B0074F298 /* AtariViewController.xib */,
 			);
-			path = AtariViewController;
+			path = CronoViewController;
 			sourceTree = "<group>";
 		};
 		AAC05BA22189D1E50074F298 /* Style */ = {
@@ -217,6 +231,7 @@
 				AAC05B712189B9190074F298 /* Assets.xcassets in Resources */,
 				AAC05B9C2189C8DA0074F298 /* Localizable.strings in Resources */,
 				AAC05B872189C00B0074F298 /* AtariViewController.xib in Resources */,
+				AAACEA342192FAFB0086A1CA /* CamaViewController.xib in Resources */,
 				AAC05BAA2189D9470074F298 /* SourceCodePro-Light.ttf in Resources */,
 				AAC05B992189C1480074F298 /* LaptopViewController.xib in Resources */,
 				AAC05B952189C1360074F298 /* MonitorViewController.xib in Resources */,
@@ -230,12 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC05B982189C1480074F298 /* LaptopViewController.swift in Sources */,
+				AAC05B982189C1480074F298 /* MinuteroViewController.swift in Sources */,
 				AAC05BA42189D1FF0074F298 /* Style.swift in Sources */,
-				AAC05B862189C00B0074F298 /* AtariViewController.swift in Sources */,
-				AAC05B942189C1360074F298 /* MonitorViewController.swift in Sources */,
+				AAC05B862189C00B0074F298 /* CronoViewController.swift in Sources */,
+				AAC05B942189C1360074F298 /* DespertadorViewController.swift in Sources */,
+				AAACEA332192FAFB0086A1CA /* CamaViewController.swift in Sources */,
 				AAC05BA62189D2370074F298 /* ColorStyle.swift in Sources */,
-				AAC05B8A2189C0C50074F298 /* ControllerViewController.swift in Sources */,
+				AAC05B8A2189C0C50074F298 /* GloboViewController.swift in Sources */,
 				AAC05B6A2189B9180074F298 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

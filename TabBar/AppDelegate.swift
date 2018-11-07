@@ -18,12 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         if let window = window{
-            window.tintColor = UIColor.white
+            window.tintColor = UIColor.orange
             Style.customize()
-            let atariVC = AtariViewController()
-            let controllerVC = ControllerViewController()
-            let monitorVC = MonitorViewController()
-            let laptopVC = LaptopViewController()
+            let atariVC = CronoViewController()
+            let controllerVC = GloboViewController()
+            let monitorVC = DespertadorViewController()
+            let laptopVC = MinuteroViewController()
+            let camaVC = CamaViewController()
+            
             
             let tabVC = UITabBarController()
             
@@ -31,10 +33,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let controllerNavigationController = UINavigationController(rootViewController: controllerVC)
             let monitorNavigationController = UINavigationController(rootViewController: monitorVC)
             let laptopNavigationController = UINavigationController(rootViewController: laptopVC)
+            let camaNavigationController = UINavigationController(rootViewController: camaVC)
             
             
             
-            tabVC.viewControllers = [atariNavigationController, controllerNavigationController, monitorNavigationController, laptopNavigationController]
+            
+            tabVC.viewControllers = [controllerNavigationController, monitorNavigationController, camaNavigationController, atariNavigationController, laptopNavigationController]
             window.rootViewController = tabVC
             window.makeKeyAndVisible()
             

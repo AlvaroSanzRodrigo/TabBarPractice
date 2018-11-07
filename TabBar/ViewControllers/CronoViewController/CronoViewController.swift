@@ -8,11 +8,11 @@
 
 import UIKit
 
-class AtariViewController: UIViewController {
+class CronoViewController: UIViewController {
     
     init() {
         super.init(nibName: "AtariViewController", bundle: nil)
-        self.tabBarItem.image = UIImage(named: "atari")
+        self.tabBarItem.image = UIImage(named: "crono")
         self.title = NSLocalizedString("title_atari", comment: "")
     }
     
@@ -22,8 +22,6 @@ class AtariViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         let nadaBarButton = UIBarButtonItem(title: "Something", style: .plain, target: self, action: #selector(nada))
-        navigationItem.setLeftBarButton(nadaBarButton, animated: false)
         // Do any additional setup after loading the view.
     }
 

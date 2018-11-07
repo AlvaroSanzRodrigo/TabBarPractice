@@ -1,5 +1,5 @@
 //
-//  LaptopViewController.swift
+//  ControllerViewController.swift
 //  TabBar
 //
 //  Created by Álvaro Sanz Rodrigo on 31/10/18.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-class LaptopViewController: UIViewController {
+class GloboViewController: UIViewController {
     
     init() {
-        super.init(nibName: "LaptopViewController", bundle: nil)
-        self.tabBarItem.image = UIImage(named: "laptop")
-        self.title = NSLocalizedString("title_laptop", comment: "")
+        super.init(nibName: "ControllerViewController", bundle: nil)
+        self.tabBarItem.image = UIImage(named: "globo")
+        self.title = NSLocalizedString("title_controller", comment: "")
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -22,8 +22,10 @@ class LaptopViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let nadaBarButton = UIBarButtonItem(title: "Something", style: .plain, target: self, action: #selector(nada))
+        let nadaBarButton = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(nada))
+        let addBarButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
         navigationItem.setLeftBarButton(nadaBarButton, animated: false)
+        navigationItem.setRightBarButton(addBarButton, animated: true)
         // Do any additional setup after loading the view.
     }
 
@@ -32,9 +34,8 @@ class LaptopViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @objc private func nada(){
-        
-    }
+    @objc private func nada(){}
+
     /*
     // MARK: - Navigation
 

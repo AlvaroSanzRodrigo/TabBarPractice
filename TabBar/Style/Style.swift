@@ -13,14 +13,14 @@ class Style {
     class func customize(){
         UINavigationBar.appearance().barTintColor = ColorStyle.navigationBarTintColor()
         UITabBar.appearance().barTintColor = ColorStyle.navigationBarTintColor()
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white,
-                                                            kCTFontAttributeName : UIFont(name: "SourceCodePro-Light", size: 26)] as? [NSAttributedStringKey: Any]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
         
-        UITabBarItem.appearance().setTitleTextAttributes([kCTFontAttributeName : UIFont(name: "SourceCodePro-Light", size: 15)!] as [NSAttributedStringKey: Any], for: .normal)
-        UITabBarItem.appearance().setTitleTextAttributes([kCTFontAttributeName : UIFont(name: "SourceCodePro-Light", size: 15)!] as [NSAttributedStringKey: Any], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.white] as [NSAttributedStringKey: Any], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.orange] as [NSAttributedStringKey: Any], for: .selected)
         
-        UIBarButtonItem.appearance().setTitleTextAttributes([kCTFontAttributeName : UIFont(name: "SourceCodePro-Light", size: 15)!] as [NSAttributedStringKey: Any], for: .normal)
-        UIBarButtonItem.appearance().setTitleTextAttributes([kCTFontAttributeName : UIFont(name: "SourceCodePro-Light", size: 15)!] as [NSAttributedStringKey: Any], for: .selected)
+        
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.orange] as [NSAttributedStringKey: Any], for: .normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.orange] as [NSAttributedStringKey: Any], for: .selected)
     }
     }
 
